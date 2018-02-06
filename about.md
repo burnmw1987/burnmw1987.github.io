@@ -6,7 +6,7 @@ permalink: /about/
 
 I'm a software developer based in South Leicestershire.
 
-Currently, my main commercial language is OpenEdge - a 4GL language from [Progress] (https://www.progress.com/openedge). However, I am currently expanding my language skills and making a foray in to the .NET stack.
+Currently, my main commercial language is OpenEdge - a 4GL language from [Progress](https://www.progress.com/openedge). However, I am currently expanding my language skills and making a foray in to the .NET stack.
 
 I'm hoping to learn C#, MySQL and Xamarin as a starting point; but I'm sure that there will be lots of other things that I'll pick up along the way (for instance, the Markdown language that I'm using to write this, and the use of GitHub)!
 
