@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<testsuites errors="1" failures="2" name="ABLUnit" tests="10">
+<testsuite name="C:\Development\DevSOA\tests\test_modvREST.cls" tests="10" time="14.52">
+<testcase name="test_getItem_BlankItem" status="Success" time=".01"/>
+<testcase name="test_getItem_InvalidItem" status="Success" time=".002"/>
+<testcase name="test_getItem_ValidItem" status="Failure" time=".01">
+<failure message="Expected: 200 but was: 0">Equals OpenEdge.Core.Assert at line 90  (OpenEdge/Core/Assert.r)
+test_getItem_ValidItem tests.test_itemTest at line 154  (C:\tests\test_itemTest.cls)
+Invoke OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 163  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+RunTestMethod OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 196  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+RunSelectedTestMethod OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 126  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+runTestClassMethod OpenEdge.ABLUnit.Runner.ABLRunner at line 1180  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1075  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1013  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1100  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1013  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+RunTests OpenEdge.ABLUnit.Runner.ABLRunner at line 150  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+ABLUnitCore.r at line 72  (ABLUnitCore.r)
+</failure>
+</testcase>
+<testcase name="test_getItem_ValidItemJsonResponse" status="Error" time=".011">
+<error>test_getItem_ValidItemJsonResponse tests.test_itemTest at line 178  (C:\tests\test_itemTest.cls)
+Invoke OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 163  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+RunTestMethod OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 196  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+RunSelectedTestMethod OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 126  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+runTestClassMethod OpenEdge.ABLUnit.Runner.ABLRunner at line 1180  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1075  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1013  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1100  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1013  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+RunTests OpenEdge.ABLUnit.Runner.ABLRunner at line 150  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+ABLUnitCore.r at line 72  (ABLUnitCore.r)
+</error>
+</testcase>
+<testcase name="test_getItem_ValidHeaderContentTypeResponse" status="Success" time=".003"/>
+<testcase name="test_getItem_ValidHeaderServerResponse" status="Success" time=".002"/>
+<testcase name="test_getItemArray_ValidHeaderContentTypeResponse" status="Success" time="1.523"/>
+<testcase name="test_getItemArray_ValidHeaderServerResponse" status="Success" time="1.83"/>
+<testcase name="test_getItemArray_Valid" status="Failure" time="1.745">
+<failure message="Expected: 200 but was: 0">Equals OpenEdge.Core.Assert at line 90  (OpenEdge/Core/Assert.r)
+test_getItemArray_Valid tests.test_itemTest at line 276  (C:\tests\test_itemTest.cls)
+Invoke OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 163  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+RunTestMethod OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 196  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+RunSelectedTestMethod OpenEdge.ABLUnit.Reflection.ClassAnnotationInfo at line 126  (OpenEdge/ABLUnit/Reflection/ClassAnnotationInfo.r)
+runTestClassMethod OpenEdge.ABLUnit.Runner.ABLRunner at line 1180  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1075  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1013  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1100  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+runtests OpenEdge.ABLUnit.Runner.ABLRunner at line 1013  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+RunTests OpenEdge.ABLUnit.Runner.ABLRunner at line 150  (OpenEdge/ABLUnit/Runner/ABLRunner.r)
+ABLUnitCore.r at line 72  (ABLUnitCore.r)
+</failure>
+</testcase>
+<testcase name="test_getItemArray_ValidJsonResponse" status="Success" time="1.743"/>
+</testsuite>
+</testsuites>
