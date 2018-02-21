@@ -18,4 +18,4 @@ Outside of the technology field I also enjoy flexing my DIY skills - having boug
 
 ### Contact me
 
-[martinburn@gmail.com](mailto:martinburn@gmail.com)
+[martinwburn@gmail.com](mailto:martinwburn@gmail.com)
